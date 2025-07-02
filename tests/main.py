@@ -21,6 +21,7 @@ def dividirValores(valor1, valor2):
 def calcularAreaQuadrado(lado):
     return lado * lado
 
+#-----
 
 def retornarValorEspecifico(valor):
     # processamento...
