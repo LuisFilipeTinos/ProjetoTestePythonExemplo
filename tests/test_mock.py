@@ -8,7 +8,7 @@ def test_obterDesconto(mocker):
     assert resp == 50
 
 
-def taxaDescontoFalsa(multiplicador):
+def taxaDescontoFalsa():
     return 0.25
 
 
@@ -20,7 +20,7 @@ def test_obterDescontoComSpyRetornoCustomizado(mocker):
     print(resultado)
 
     assert resultado == 75.0
-    spy.asser_called_once()
+    spy.assert_called_once()
     spy.assert_called_with(0.9)
 
 
