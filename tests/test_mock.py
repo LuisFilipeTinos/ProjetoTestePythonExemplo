@@ -8,7 +8,7 @@ def test_obterDesconto(mocker):
     assert resp == 50
 
 
-def taxaDescontoFalsa():
+def taxaDescontoFalsa(multiplicador):
     return 0.25
 
 
